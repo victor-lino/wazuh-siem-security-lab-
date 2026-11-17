@@ -1,0 +1,10 @@
+<group name="lab_correlation_test,">
+  <rule id="100400" level="3">
+    <match>LAB_CORRELATION_TEST</match>
+    <description>LAB: evento sintetico de teste</description>
+  </rule>
+  <rule id="100401" level="10" frequency="3" timeframe="60">
+    <if_matched_sid>100400</if_matched_sid>
+    <description>LAB: correlacao de tres eventos confirmada</description>
+  </rule>
+</group>
